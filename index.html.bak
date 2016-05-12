@@ -51,7 +51,7 @@ tr {
 	text-align: center;
 }
 
-table.services{
+table{
 	table-layout: fixed;
 	width: 100%; 
 }
@@ -90,37 +90,38 @@ blockquote{
 	width:50%;
 	background-color: #7FBF90;
 }
-table.prices{
-	table-layout: fixed;
-	width: 100%; 
-}
+
 
 </style>
 </head>
 <body>
-<center><img width="75%" src="images/banner.png"></center>
+<img width="75%" height=""src="images/banner.png">
 <nav>
 <ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a class=active href="services.html">Our Services</a></li>
+	<li><a class=active href="index.html">Home</a></li>
+	<li><a href="services.html">Our Services</a></li>
 	<li><a href="aboutus.html">About Us</a></li>
 	<li><a href="contact.html">Contact</a></li>
 	<li><a href="articles.html">Articles</a></li>
 </ul>
 </nav>
-
-<h1>Our Services</h1>
-<table class=services align="center" border="0">
+<table align="center" border="0">
 	<tr>
+<br>
 		<td><img src="images/lawnmowing.png" width="150" height="150" /><br></br>
 		<h2>Lawn Mowing</h2>
-	<p>
-	No job is too big or too small. 
-	Motorised lawn mowers are used for large jobs so that they are completed quickly.
-	All grass clippings are removed and taken away at the end of the job.
+		<p>
+	No job is too big or too small. Motorised lawn
+mowers are used for large jobs so that they
+are completed quickly. All grass clippings are
+removed and taken away at the end of the job.
 Jobs can be completed with 24 hours notice.
-If the customer is not completely satisfied with the job, we will return and redo the job to the customers satisfaction.
+If the customer is not completely satisfied with
+the job, we will return and redo the job to the
+customers satisfaction.
 </p>
+
+	<center><ul><li><a href="services.html"> See More!</a></li></ul></center>
 		<td><img src="images/landscaping.png" width="150" height="150" /> 
 		
 		<h2>Land Scaping</h2>
@@ -135,6 +136,8 @@ If the customer is not completely satisfied with the job, we will return and red
 		Murray for a detailed
 		quote.
 		</p>
+		<br><br>
+		<center><ul><li><a href="services.html" > See More!</a></ul></center>	
 		<td><img src="images/treetrimming.png" width="150" height="150" />
 
 		<h2>Tree Trimming</h2>
@@ -148,36 +151,16 @@ If the customer is not completely satisfied with the job, we will return and red
 		also arrange for trees and
 		stump removal if required.
 		</p>
+		<br>
+		<center><ul><li><a align="center" href="services.html"> See More!</a></li></ul></center>
 	</tr>
 	</table>
-	<h1>Prices</h1>
-	<table class=prices width="150px" align="center" border="1">
-	<tr>
-		<td><img src="images/lawnmowing.png" width="150" height="150" /><br></br>
-		<h2>Lawn Mowing, normal</h2>
-Weekdays- $36<br>
-Weekends- $45<br>
-<td><img src="images/lawnmowing.png" width="150" height="150" /><br></br>
-	<h2>Lawn Mowing, large block</h2>
-Weekdays- $50<br>
-Weekends- $70
-<td><img src="images/landscaping.png" width="150" height="150" /> 
-		<h2>Land Scaping</h2>
-Weekdays- $36<br>
-Weekends- $45<br>
-<td><img src="images/treetrimming.png" width="150" height="150" />
-		<h2>Tree Trimming</h2>
-Weekdays- $36<br>
-Weekends- $45<br>
-<td><img src="images/rubbish.png" width="150" height="150" />
-		<h2>Rubbish Collection (per bag)</h2>
-Weekdays- $36<br>
-Weekends- $45<br>
-</tr>
-		
 	
-	</tr>
-	</tr>
-	</table>
+	<h2> Customer Review </h2>
+	
+	<center><blockquote style="text-align: left;">
+	My lawn was getting out of control, I don't personally own a mower nor did I have the option to borrow one from a friend/family. As summer was comming up it seemed that my lawn was doomed to be an out of control, snake infested jungle; 
+	until of course I stumbled upon "Garden Gnomes" and they really turn things around. One simple, concise call later two workers were on my lawn mowing. This place is the best I would recommend them to anyone!<p style="text-align: right">-Kylie Jones</p>
+	</blockquote></center>
 </body>
 </html>
